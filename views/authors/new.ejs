@@ -1,0 +1,6 @@
+<h2>New Author</h2>
+<form action="/authors" method="Post"> <!--go to authors use method Post we use Post because in the route we used method post only way to use post is in forms-->
+    <%- include('_form_fields') %> <!--INPORT SYNTAX pass form fields into new uathor page-->
+    <a href="/authors">Cancel</a>                 <!--creates a cancel button but its actually just a link-->
+    <button type="submit">Create</button>
+</form>

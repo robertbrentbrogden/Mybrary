@@ -7,10 +7,8 @@
     <title>Mybrary</title>
 </head>
 <body>
-    before
-    <br>
+    <%- include('../partials/header.ejs') %> <!--includes files in partials directory right now this is just the header-->
+    <%- include('../partials/errorMessage.ejs') %> <!--includes and prints error message-->
     <%- body %> <!--all content of application will go hereuse percentage hyphen body to unclude all other pages body into this pages body-->
-    <br>
-    After
 </body>
 </html>
